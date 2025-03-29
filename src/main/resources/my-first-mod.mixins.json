@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.myfirstmod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MyFirstModMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

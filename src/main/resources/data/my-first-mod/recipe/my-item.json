@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DID",
+    "IBI",
+    "DID"
+  ],
+  "key": {
+    "D": { "item": "minecraft:diamond" },
+    "I": { "item": "minecraft:ice" },
+    "B": { "item": "minecraft:netherite_sword" }
+  },
+  "result": {
+    "id": "my-first-mod:my-item",
+    "count": 1
+  }
+}

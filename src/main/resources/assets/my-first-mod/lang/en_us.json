@@ -1,0 +1,7 @@
+{
+  "item.my-first-mod.my-item": "frostmourne",
+  "item.my-first-mod.my-item.tooltip": "The Lich King's blade of frozen ice and dark magic.",
+  "item.my-first-mod.my-food": "magicfood",
+  "itemGroup.my-first-mod,my-group": "mygroup",
+  "block.my-first-mod.my-block": "myblock"
+}
