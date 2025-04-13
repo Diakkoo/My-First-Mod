@@ -14,6 +14,7 @@ public final class MyItemGroups {
                 entries.add(MyItem.MY_ITEM);        //将物品添加进物品组
                 entries.add(MyFood.MY_FOOD);        //将食物注册进物品组
                 entries.add(MyBlock.MY_BLOCK);      //将方块注册进物品组
+                entries.add(MyVerticalSlabBlock.MY_VERTICAL_SLAB_BLOCK);    //将垂直安山岩方块添加进物品组
             })
             .build();
 }

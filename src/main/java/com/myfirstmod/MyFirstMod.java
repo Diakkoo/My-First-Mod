@@ -65,6 +65,20 @@ public class MyFirstMod implements ModInitializer {
 				new BlockItem(MyBlock.MY_BLOCK, new Item.Settings())
 		);
 
+		//注册垂直版安山岩台阶方块
+		Registry.register(
+				Registries.BLOCK,
+				Identifier.of("my-first-mod", "my-vertical-slab-block"),
+				MyVerticalSlabBlock.MY_VERTICAL_SLAB_BLOCK
+		);
+
+		//将垂直版安山岩台阶方块注册进物品栏
+		Registry.register(
+				Registries.ITEM,
+				Identifier.of("my-first-mod", "my-vertical-slab-block"),
+				new BlockItem(MyVerticalSlabBlock.MY_VERTICAL_SLAB_BLOCK, new Item.Settings())
+		);
+
 		LOGGER.info("Hello Fabric world!");
 	}
 }
