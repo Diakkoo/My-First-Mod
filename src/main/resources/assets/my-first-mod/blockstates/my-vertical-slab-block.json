@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "my-first-mod:block/my-vertical-slab-block", "uvlock": true },
+    "facing=east":  { "model": "my-first-mod:block/my-vertical-slab-block", "y":  90, "uvlock": true },
+    "facing=south": { "model": "my-first-mod:block/my-vertical-slab-block", "y": 180, "uvlock": true },
+    "facing=west":  { "model": "my-first-mod:block/my-vertical-slab-block", "y": 270, "uvlock": true }
+  }
+}
